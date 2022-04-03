@@ -1,43 +1,17 @@
 
 import React from 'react';
+import Head from './head';
+import Calculations from './calculation';
 
-// import './navbar.css'
+import './homepage.css'
 
 const HomePage = () => {
 
   return (
     <div className='homePage'>
 
-      <div className='topPart'>
-        <div className='linkSquare'>
-          calculate your debt ratio
-        </div>
-        <div className='linkSquare'>
-          Set a plan to be debt free
-        </div>
-        <div className='linkSquare'>
-          About us
-        </div>
-      </div>
-
-
-      <div className='MiddlePart'>
-        <div className='income'>
-          Gross Income
-        </div>
-        <div className='debts'>
-          Debts
-        </div>
-        <div className='expenses'>
-          Monthley Expenses
-          <div className='expenses'>
-            Mandatory
-          </div>
-          <div className='expenses'>
-            For fun
-          </div>
-        </div>
-      </div>
+     <Head/>
+    <Calculations/>
 
       <div className='calculations'>
         <div className='debtratio'>
